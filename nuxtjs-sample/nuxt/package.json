@@ -1,0 +1,23 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "description": "My delightful Nuxt.js project",
+  "author": "MacbookPro",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 PORT=3000 nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.4.6",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.6",
+    "@nuxtjs/eslint-config-typescript": "^1.0.2",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "nuxt-property-decorator": "^2.7.2"
+  }
+}
